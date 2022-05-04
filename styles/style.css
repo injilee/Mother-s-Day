@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #fdf9f7;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+ul, ol, li{
+    list-style:none;
+}
+button{
+    background-color:transparent;
+    border:none;
+}
+
+/* banner */
+.banner-title{
+    margin:0;
+    color:#fff;
+    background-color: rgba(39, 39, 39, 0.938);
+}
+.banner-title a{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:2.8em;
+    font-size:1.6rem;
+}
+.airplan{
+    
+}
+
+.main-bg{
+    background-image:url(../assets/image/sun1.jpg);
+    width:100%;
+    height:100vh;
+    background-position:58% center;
+    background-size:cover;
+}
+
+@media screen and (max-width:768px){
+    
+    
+}

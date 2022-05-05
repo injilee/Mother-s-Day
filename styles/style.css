@@ -1,25 +1,17 @@
-body{
-    margin:0;
-    padding:0;
-    background-color: #fdf9f7;
-}
-a{
-    text-decoration:none;
-    color:inherit;
-}
-ul, ol, li{
-    list-style:none;
-}
-button{
-    background-color:transparent;
-    border:none;
-}
+@import url(./reset.css);
 
 /* banner */
+aside{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+
 .banner-title{
     margin:0;
-    color:#fff;
-    background-color: rgba(39, 39, 39, 0.938);
+    color:#000;
+    background-color: #FFC82C;
 }
 .banner-title a{
     display:flex;
@@ -29,7 +21,7 @@ button{
     font-size:1.6rem;
 }
 .airplan{
-    
+    animation: bounce 3s infinite;
 }
 
 .main-bg{
@@ -38,6 +30,15 @@ button{
     height:100vh;
     background-position:58% center;
     background-size:cover;
+}
+
+@keyframes bounce {
+    0%,100%{
+        transform:translate(0px, -5px) rotate(-10deg);
+    }
+    50%{
+        transform:translate(0px, 5px) rotate(-15deg);
+    }
 }
 
 @media screen and (max-width:768px){

@@ -146,39 +146,22 @@ header{
     color:#000;
 }
 
-/* baby */
-.baby{
+/* sunny-gallery */
+.sunny-gallery{
     display:flex;
-    flex-direction:column;
     justify-content:center;
     align-items:center;
-    border-bottom:2px dotted #fff;
 }
-.baby-title{
-    font-family: 'LeeSeoyun';
-    font-size:2.5rem;
-    font-weight:400;
-    text-align:center;
-    margin-top:45px;
-    margin-bottom:0;
-}
-
-.inhye-baby-container,
-.inyoung-baby-container
-.inji-baby-container{
+.sunny-gallery-container{
     display:flex;
     flex-direction:column;
 }
-.inhye-baby-container li,
-.inyoung-baby-container li,
-.inji-baby-container li{
+.sunny-gallery-container li{
     display:flex;
     flex-direction:column;
 }
-.inhye-baby-container:last-child,
-.inyoung-baby-container:last-child,
-.inji-baby-container:last-child{
-    padding-bottom:30px;
+.sunny-gallery-container:last-child{
+    padding-bottom:20px;
 }
 .imoji{
     display:flex;
@@ -187,7 +170,7 @@ header{
     padding-top:28px;
     padding-bottom:8px;
 }
-.baby-photos{
+.sunny-photos{
     width:60%;
     opacity:0.85;
     object-fit:cover;
@@ -206,6 +189,7 @@ footer{
     font-size:0.8rem;
 }
 
+
 @media screen and (max-width:768px){
     .main-header .container img{
         z-index:-1;
@@ -217,24 +201,10 @@ footer{
         font-size:1.5rem;
     }
 
-    /* baby */
-    .baby-title{
-        font-family: 'LeeSeoyun';
-        font-size:1.8rem;
-        margin-top:25px;
-    }
-    .baby-photos{
+    /* sunny-gallery */
+    .sunny-photos{
         width:100%;
         opacity:0.85;
         object-fit:cover;
-    }
-    .inhye-baby-container:last-child,
-    .inyoung-baby-container:last-child
-    .inji-baby-container:last-child{
-        padding-bottom:16px;
-    }
-    
-    .imoji{
-        padding-top:18px;
     }
 }

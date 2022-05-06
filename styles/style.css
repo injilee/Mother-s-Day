@@ -21,6 +21,8 @@ aside{
     font-size:1.6rem;
 }
 .airplan{
+    width:20px;
+    height:20px;
     animation: bounce 3s infinite;
 }
 
@@ -34,10 +36,10 @@ aside{
 
 @keyframes bounce {
     0%,100%{
-        transform:translate(0px, -5px) rotate(-10deg);
+        transform:translate(0px, -5px) rotate(15deg);
     }
     50%{
-        transform:translate(0px, 5px) rotate(-15deg);
+        transform:translate(0px, 5px) rotate(20deg);
     }
 }
 
